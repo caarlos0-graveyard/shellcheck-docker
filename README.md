@@ -6,5 +6,8 @@ Generating an updated shellcheck binary for ubuntu from a Docker container.
 
 ```console
 $ docker build -t shellcheck .
-$ docker run -t shellcheck cat ~/.cabal/bin/shellcheck > shellcheck
+$ docker run -t shellcheck
+$ ls
+# ...
+shellcheck*
 ```
