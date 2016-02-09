@@ -15,4 +15,5 @@ RUN apt-get install -y curl && \
   tar zxf "/tmp/shellcheck-$SHELLCHECK_TAG.tar.gz" -C /tmp/ && \
   rm "/tmp/shellcheck-$SHELLCHECK_TAG.tar.gz" && \
   cabal install "/tmp/shellcheck-$SHELLCHECK_VERSION"
-CMD cp -f ~/.cabal/bin/shellcheck /tmp
+
+RUN ln ~/.cabal/bin/shellcheck /usr/bin/shellcheck
