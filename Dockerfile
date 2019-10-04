@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Carlos Alexandro Becker (caarlos0@gmail.com)
 
-ENV SHELLCHECK_VERSION 0.6.0
+ENV SHELLCHECK_VERSION 0.7.0
 ENV SHELLCHECK_TAG v$SHELLCHECK_VERSION
 
 RUN apt-get update && \
