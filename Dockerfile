@@ -1,4 +1,4 @@
-FROM ubuntu:14.10
+FROM ubuntu:18.04
 
 MAINTAINER Carlos Alexandro Becker (caarlos0@gmail.com)
 
