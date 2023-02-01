@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:23.04
 
 MAINTAINER Carlos Alexandro Becker (caarlos0@gmail.com)
 
